@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDF7EE;
+    font-family: poppins;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #26160E;
+}
+
+.logo img {
+    width: auto;
+    height: 48px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin-right: -400px;
+    list-style: none;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a {
+    color: #FDF7EE;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8E6D54;
+}
+
+.login-section {
+    display: flex;
+    color: #FDF7EE;
+    margin-right: 90px;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-section:hover {
+    color: #8E6D54;
+}
+
+input::placeholder {
+    left: 5px;
+    position: relative;
+    color: #606060;
+    font-family: poppins;
+}
+
+.entre {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login-section2 {
+    text-decoration: none;
+    color: #FDF7EE;
+}
+
+#material-symbols-outlined {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-variation-settings:
+        'FILL' 50,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+
+.imagem-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+
+.banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+.texto-banner {
+    position: absolute;
+    margin-top: -5%;
+    font-size: 25px;
+    margin-left: 190px;
+    transform: translate(-50%, -50%);
+    color: #FDF7EE;
+}
+
+
+.quemsomosimg {
+    margin-top: 10%;
+    margin-left: 150px;
+    width: 40%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    border-bottom: 50%;
+}
+
+
+
+.historia {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.integrantes h2 {
+    color: #26160E;
+    font-size: 30px;
+}
+
+.historia h1 {
+    text-align: center;
+    margin-top: 19%;
+}
+
+.historia p {
+    font-size: px;
+    line-height: 1.8;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.grupo img {
+    width: 75%;
+    height: 70%;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.integrantes {
+    margin-top: 5%;
+    text-align: center;
+    padding: 50px 20px 80px;
+}
+
+
+.equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.pessoa {
+    text-align: center;
+    transition: transform 0.9s;
+}
+
+
+.pessoa:hover {
+    transform: translateY(-8px);
+}
+
+
+.pessoa img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+.pessoa h3 {
+    margin-top: 15px;
+    font-size: 19px;
+    color: #220004;
+}
+
+
+header h1 {
+    font-size: 32px;
+}
+
+
+.equipe {
+    gap: 90px;
+}
+
+
+.pessoa img {
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
+.rodape {
+    background-color: #26160E;
+    margin-top: 90px;
+}
+
+.footer-info {
+    font-family: poppins;
+    color: #FDF7EE;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.regular1 {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.regular2 {
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-footer {
+    margin-bottom: 10px;
+}
+
+.voltar {
+    position: absolute;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #8E6D54;
+    width: 85px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-family: poppins;
+    color: #26160E;
+    font-weight: 900;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    transform: translateY(-4px);
+}
+
+.fim {
+    position: relative;
+    bottom: 67px;
+}

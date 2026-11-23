@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF7EE;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #26160E;
+}
+
+.logo img {
+    width: auto;
+    height: 48px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin-right: -400px;
+    list-style: none;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a {
+    color: #FDF7EE;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8E6D54;
+}
+
+.login-section {
+    display: flex;
+    color: #FDF7EE;
+    margin-right: 90px;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-section:hover {
+    color: #8E6D54;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    left: 50px;
+    top: 11px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 250,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+#material-symbols-outlined {
+    left: 0;
+    top: 0;
+    font-variation-settings:
+        'FILL' 50,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+
+input::placeholder {
+    left: 5px;
+    position: relative;
+    color: #26160E;
+}
+
+.entre {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login-section2 {
+    text-decoration: none;
+    color: #FDF7EE;
+}
+
+input[type="checkbox"] {
+    accent-color: #8E6D54;
+
+    width: 18px;
+    height: 18px;
+
+}
+
+.cadastro-container {
+    background-color: #26160E;
+    border-top-right-radius: 200px;
+    width: 430px;
+    height: 683px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+
+
+.cadastro-title {
+    font-family: abril fatface;
+    font-weight: 150;
+    font-size: 40px;
+    color: #FDF7EE;
+    margin-left: 35px;
+}
+
+#cadastro-subtitle {
+    font-family: poppins;
+    font-weight: 350;
+    font-size: 22px;
+    color: #FDF7EE;
+}
+
+#cadastro-subtitle2 {
+    font-family: poppins;
+    font-weight: 350;
+    font-size: 22px;
+    color: #FDF7EE;
+    margin-top: -12px;
+}
+
+#cadastro-subtitle3 {
+    font-family: poppins;
+    font-weight: 350;
+    font-size: 22px;
+    color: #FDF7EE;
+    margin-top: -12px;
+}
+
+.acesso {
+    margin-left: 35px;
+    margin-top: -8px;
+}
+
+main {
+    display: flex;
+    gap: 300px;
+}
+
+.cadastro-form-title {
+    font-family: abril fatface;
+    font-weight: 150;
+    font-size: 50px;
+    color: #26160E;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro-form-username {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+#username {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+}
+
+.cadastro-form-telefone {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+#phone {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+}
+
+.cadastro-form-email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+#email {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+}
+
+.cadastro-form-password {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+#senha {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+}
+
+.cadastro-form-passwordC {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+#senhaC {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+}
+
+.politicapriv {
+    text-decoration: none;
+    color: #8E6D54;
+}
+
+.politicapriv:hover {
+    text-decoration: underline;
+    text-decoration-color: #8E6D54;
+}
+
+.cadastro-form-button {
+    background-color: #8E6D54;
+    border: none;
+    border-radius: 40px;
+    width: 350px;
+    height: 50px;
+    color: #FDF7EE;
+    font-family: poppins;
+    font-weight: 580;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 25px;
+    transition: 0.2s;
+}
+
+.cadastro-button-link {
+    text-decoration: none;
+    color: #FDF7EE;
+}
+
+.cadastro-form-button:hover {
+    background-color: #26160E;
+}
+
+.cadastro-form-terms {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.termos-text{
+    font-family: poppins;
+    font-weight: 380;
+    font-size: 14px;
+    color: #26160E;
+}
+

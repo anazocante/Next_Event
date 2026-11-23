@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banda Saloon</title>
+    <link rel="stylesheet" href="orcamento-bs.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_" />
+</head>
+
+<body>
+    <header>
+        <div class="logo" id="topo">
+            <a href="index.html"><img src="logo.png" alt="Logo"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="fornecedores.html">Fornecedores</a></li>
+                <li><a href="eventos.html">Site de Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+
+        <a href="login.html" class="login-section2">
+            <section class="login-section">
+                <span class="material-symbols-outlined" id="material-symbols-outlined">
+                    person
+                </span>
+                <p class="entre">Entre</p>
+            </section>
+        </a>
+    </header>
+
+    <main>
+        <section class="compras">
+            <div class="bannerbianchi">
+                <img class="imagembianchi" src="imgorcamento/bandasaloonimagem2.webp" alt="imagem Banda Saloon" />
+                <p onclick="window.location.href='galeria-bs.html'" class="botaoimagem">Descubra mais</p>
+            </div>
+
+            <div class="orcamento-info">
+                <h2 class="titulo">Banda Saloon</h2>
+                <p class="localizacao">Riberão Preto, São Paulo</p>
+                <div class="borda">
+                    <div class="info">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p>A partir de R$2.250</p>
+                    </div>
+                </div>
+
+                <button class="botaobannerbianchi" id="abrirModal" type="button">Pedir orçamento grátis</button>
+                <div class="avanco">
+                    <span class="material-symbols-outlined seta">
+                        trending_up
+                    </span>
+                    <p class="pequeno">Dos mais pesquisados em São Paulo Estado</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="fundo-modal" id="modal">
+            <div class="janela-modal">
+                <button class="fechar-modal" id="fecharModal" type="button">
+                    &times;
+                </button>
+                <p class="modal-subtitulo">BANDA SALOON</p>
+                <h2>Peça mais informação</h2>
+                <p class="modal-descricao">
+                    Preencha este formulário e entraremos em contato
+                    em breve. Seus dados serão tratados de forma confidencial.
+                </p>
+                <form class="formulario-modal">
+                    <div class="campo-modal nome-modal">
+                        <input type="text" placeholder="Nome completo" required>
+                    </div>
+                    <div class="campo-modal">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="campo-modal">
+                        <input type="tel" placeholder="Telefone" required>
+                    </div>
+                    <label class="rotulo-modal">Data do evento</label>
+                    <div class="campo-modal">
+                        <select required>
+                            <option value="">Mês</option>
+                            <option>Janeiro</option>
+                            <option>Fevereiro</option>
+                            <option>Março</option>
+                            <option>Abril</option>
+                            <option>Maio</option>
+                            <option>Junho</option>
+                            <option>Julho</option>
+                            <option>Agosto</option>
+                            <option>Setembro</option>
+                            <option>Outubro</option>
+                            <option>Novembro</option>
+                            <option>Dezembro</option>
+                        </select>
+                    </div>
+                    <div class="campo-modal">
+                        <select required>
+                            <option value="">Ano</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                        </select>
+                    </div>
+                    <label class="rotulo-modal">Nº aproximado de convidados</label>
+                    <div class="opcoes-modal">
+                        <label>
+                            <input type="radio" name="convidados" value="0-100" required>
+                            <span>0-100</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="100-150">
+                            <span>100-150</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="150-200">
+                            <span>150-200</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="200+">
+                            <span>200+</span>
+                        </label>
+                    </div>
+                    <button class="enviar-modal" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="informacoesbianchi">
+            <h2>Informações</h2>
+            <p>
+                Quando a pista fica cheia, os sorrisos se espalham e a animação toma conta do ambiente, é porque a
+                música faz
+                toda a diferença. E a Banda Saloon sabe como proporcionar isso! Da cerimônia à grande festa, oferece
+                soluções
+                personalizadas para acompanhar cada etapa do seu evento.
+            <p>
+                Mais do que apresentações musicais, a Banda Saloon proporciona momentos especiais. Com repertório
+                diversificado,
+                interação com os convidados e muita energia no palco, cada detalhe contribui para tornar sua
+                celebração
+                única.
+                Escolha a formação ideal para cada momento e personalize o repertório de acordo com o estilo da sua
+                festa.
+            </p>
+            <p>
+                Com presença marcante e músicas para todos os gostos, a banda envolve os convidados e mantém a pista
+                animada do
+                começo ao fim. Assim, sua comemoração se transforma em uma experiência cheia de alegria e boas
+                lembranças. Quer
+                surpreender seus convidados e fazer do seu evento um momento especial? Entre em contato com
+                a<strong>
+                    Banda
+                    Saloon!</strong>
+            </p>
+        </section>
+
+        <section class="ambiente">
+            <div class="texto_espaco">
+                <h2>Fornecedores que você pode gostar</h2>
+                <p class="descubra">Descubra outros fornecedores populares para seu evento</p>
+            </div>
+            <section class="anuncios">
+                <div class="anuncio">
+                    <img src="imgorcamento/bandaabr3.webp" alt="Banda ABR3">
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Banda ABR3</h3>
+                        <span class="descricao2">Botucatu, São Paulo </span>
+                    </div>
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 8.500</p>
+                    </div>
+                </div>
+
+                <div class="anuncio">
+                    <img src="imgorcamento/imagemcerimoialista.webp" alt="Sidi Garcia Cerimonialista">
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Sidi Garcia Cerimonialista</h3>
+                        <span class="descricao2">São José do Rio Preto, São Paulo </span>
+                    </div>
+
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 2.500</p>
+                    </div>
+                </div>
+
+                <div class="anuncio">
+                    <img src="imgorcamento/imagemgravavideo.webp" alt="Giravideo360">
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Giravideo360</h3>
+                        <span class="descricao2">Piracicaba, São Paulo</span>
+                    </div>
+
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 1.200</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="maisinfo">
+            <h2 class="mais"> Mais Informações </h2>
+            <p class="oferece"> Quais espaços o local oferece?</p>
+            <div class="espaços">
+                <span id="check" class="material-symbols-outlined">
+                    check
+                </span>
+                <p class="tamanho">Música para a cerimônia</p>
+                <div class="espaços">
+                    <span id="check" class="material-symbols-outlined">
+                        check
+                    </span>
+                    <p class="tamanho">Música para a festa</p>
+                    <div class="espaços">
+                        <span id="check" class="material-symbols-outlined">
+                            check
+                        </span>
+                        <p class="tamanho">Música para o aperitivo / recepção</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="espaços">
+                <span id="check" class="material-symbols-outlined">
+                    check
+                </span>
+                <p class="tamanho">Outros (Som, iluminação e pista de dança à parte)</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="local">
+            <p class="oferece">O que inclui o pack de casamento?
+            </p>
+            <div class="espaços">
+                <p class="tamanho2">Pack Cerimônia – flexível no nº de músicos, 1 ou 2 cantores + som cortesia. Pack
+                    Festa –
+                    trio 2h com repertório variado + opcional dupla sertaneja 1h30. Som e iluminação à parte
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="local"></section>
+        <p class="oferece">Com que antecedência devo entrar em contato?
+        </p>
+        <div class="espaços">
+            <p class="tamanho2">O ideal é entrar em contato com pelo menos 2 meses de antecedência para garantir a
+                data.
+                Mas
+                consulte a disponibilidade mesmo para prazos menores</p>
+        </div>
+        </section>
+
+        <hr>
+
+        <section class="local">
+            <p class="oferece"> Que estilo de música oferece?
+            </p>
+            <div class="espaços">
+                <span id="check" class="material-symbols-outlined">
+                    check
+                </span>
+                <p class="tamanho">Clássica</p>
+                <div class="espaços">
+                    <span id="check" class="material-symbols-outlined">
+                        check
+                    </span>
+                    <p class="tamanho">Disco</p>
+                    <div class="espaços">
+                        <span id="check" class="material-symbols-outlined">
+                            check
+                        </span>
+                        <p class="tamanho">Rock</p>
+                    </div>
+                    <span id="check" class="material-symbols-outlined">
+                        check
+                    </span>
+                    <p class="tamanho">Pop</p>
+                    <div class="espaços">
+                        <span id="check" class="material-symbols-outlined">
+                            check
+                        </span>
+                        <p class="tamanho">Atual</p>
+                        <div class="espaços">
+                            <span id="check" class="material-symbols-outlined">
+                                check
+                            </span>
+                            <p class="tamanho">Country</p>
+                        </div>
+                        <span id="check" class="material-symbols-outlined">
+                            check
+                        </span>
+                        <p class="tamanho">Ambiente</p>
+                        <div class="espaços">
+                            <span id="check" class="material-symbols-outlined ">
+                                check
+                            </span>
+                            <p class="tamanho">Popular</p>
+                            <div class="espaços">
+                                <span id="check" class="material-symbols-outlined ">
+                                    check
+                                </span>
+                                <p class="tamanho">Reggae</p>
+                            </div>
+                            <span id="check" class="material-symbols-outlined ">
+                                check
+                            </span>
+                            <p class="tamanho">Brasileira</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <button class="vermais">Ver mais </button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <section class="footer-info">
+            <img class="logo-footer" src="logo.png" alt="" width="200px">
+            <p class="regular1">Siga nossas redes sociais:</p>
+            <div class="redes">
+                <a href="https://wa.me/5511999999999" target="_blank"><img src="footer/whatsapp.png" alt=""
+                        width="30px"></a>
+                <a href="https://www.instagram.com" target="_blank"><img
+                        src="footer/magnific__other-instagram-logo-icon-black-minimalist-line-ar__99647-removebg-preview.png"
+                        alt="" width="40px"></a>
+                <a href="https://www.facebook.com/nextevent/" target="_blank"><img src="footer/facebook.png" alt=""
+                        width="21px"></a>
+                <a href="https://www.linkedin.com/company/nextevent/" target="_blank"><img
+                        src="footer/—Pngtree—linkedin white icon vector_3570423.png" alt="" width="30px"></a>
+            </div>
+            <p class="bold">Planeje hoje. Memorize para sempre.</p>
+            <p class="regular2">© 2026 Next Event. Todos os direitos reservados.</p>
+            </div>
+        </section>
+
+        <section class="fim">
+            <a class="voltar" href=#topo> VOLTAR AO TOPO</a>
+        </section>
+    </footer>
+
+    <script>
+        const modal = document.getElementById("modal");
+        const abrirModal = document.getElementById("abrirModal");
+        const fecharModal = document.getElementById("fecharModal");
+        abrirModal.addEventListener("click", function () {
+            modal.style.display = "flex";
+        });
+        fecharModal.addEventListener("click", function () {
+            modal.style.display = "none";
+        });
+        modal.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+</html>

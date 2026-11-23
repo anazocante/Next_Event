@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spazio Bianchi | Next Events</title>
+    <link rel="stylesheet" href="orcamento-sb.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_" />
+</head>
+
+<body>
+    <header>
+        <div class="logo" id="topo">
+            <a href="index.html"><img src="logo.png" alt="Logo"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="fornecedores.html">Fornecedores</a></li>
+                <li><a href="eventos.html">Site de Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+
+        <a href="login.html" class="login-section2">
+            <section class="login-section">
+                <span class="material-symbols-outlined" id="material-symbols-outlined">
+                    person
+                </span>
+                <p class="entre">Entre</p>
+            </section>
+        </a>
+    </header>
+
+    <main>
+        <section class="compras">
+            <div class="bannerbianchi">
+                <img class="imagembianchi" src="imgorcamento/imagemspaziobianchi.jfif" alt="Imagem do Espaço Bianchi" />
+                <p onclick="window.location.href='galeria-sb.html'" class="botaoimagem">Descubra mais</p>
+            </div>
+
+            <div class="orcamento-info">
+                <h2 class="titulo">Spazio Bianchi</h2>
+                <p class="localizacao">José Bonifácio, São Paulo</p>
+
+                <div class="borda">
+                    <div class="info">
+                        <span id="service" class="material-symbols-outlined"> room_service </span>
+                        <p>Menus a partir de R$1</p>
+                    </div>
+
+                    <div class="info">
+                        <span id="convidados" class="material-symbols-outlined"> groups </span>
+                        <p>1 a 600 convidados</p>
+                    </div>
+
+                    <button class="botaobannerbianchi" id="abrirModal" type="button">Pedir orçamento grátis</button>
+                    <div class="avanco">
+                        <span class="material-symbols-outlined seta">
+                            trending_up
+                        </span>
+                        <p class="pequeno">Dos mais pesquisados em São Paulo Estado</p>
+                    </div>
+                </div>
+        </section>
+
+        <div class="fundo-modal" id="modal">
+            <div class="janela-modal">
+                <button class="fechar-modal" id="fecharModal" type="button">
+                    &times;
+                </button>
+                <p class="modal-subtitulo">SPAZIO BIANCHI</p>
+                <h2>Peça mais informação</h2>
+                <p class="modal-descricao">
+                    Preencha este formulário e entraremos em contato
+                    em breve. Seus dados serão tratados de forma confidencial.
+                </p>
+                <form class="formulario-modal">
+                    <div class="campo-modal nome-modal">
+                        <input type="text" placeholder="Nome completo" required>
+                    </div>
+                    <div class="campo-modal">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="campo-modal">
+                        <input type="tel" placeholder="Telefone" required>
+                    </div>
+                    <label class="rotulo-modal">Data do evento</label>
+                    <div class="campo-modal">
+                        <select required>
+                            <option value="">Mês</option>
+                            <option>Janeiro</option>
+                            <option>Fevereiro</option>
+                            <option>Março</option>
+                            <option>Abril</option>
+                            <option>Maio</option>
+                            <option>Junho</option>
+                            <option>Julho</option>
+                            <option>Agosto</option>
+                            <option>Setembro</option>
+                            <option>Outubro</option>
+                            <option>Novembro</option>
+                            <option>Dezembro</option>
+                        </select>
+                    </div>
+                    <div class="campo-modal">
+                        <select required>
+                            <option value="">Ano</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                        </select>
+                    </div>
+                    <label class="rotulo-modal">Nº aproximado de convidados</label>
+                    <div class="opcoes-modal">
+                        <label>
+                            <input type="radio" name="convidados" value="0-100" required>
+                            <span>0-100</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="100-150">
+                            <span>100-150</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="150-200">
+                            <span>150-200</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="200+">
+                            <span>200+</span>
+                        </label>
+                    </div>
+                    <button class="enviar-modal" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="informacoesbianchi">
+            <h2>Informações</h2>
+            <p>
+                O Spazio Bianchi é um espaço pensado para transformar momentos
+                especiais em experiências inesquecíveis. No Spazio Bianchi, você
+                encontra uma estrutura completa para realizar o evento dos seus
+                sonhos, unindo conforto, sofisticação, segurança e beleza em cada
+                detalhe. Tudo foi planejado para proporcionar tranquilidade aos
+                anfitriões e convidados, desde a chegada até os últimos momentos da
+                celebração. Venha conhecer o espaço de perto e descubra tudo o que o
+                Spazio Bianchi pode oferecer para tornar sua festa ainda mais
+                especial.
+            </p>
+            <h4>Espaço e Capacidade</h4>
+            <p>
+                O Spazio Bianchi conta com uma estrutura ampla e moderna, projetada
+                para receber eventos de diferentes estilos com conforto e
+                sofisticação. Seu salão possui 625 m² e capacidade para acomodar até
+                600 pessoas, oferecendo espaço para mesas, convidados, pista de dança
+                e toda a estrutura necessária para a celebração. O ambiente também
+                dispõe de um elegante hall de entrada, palco, dois camarins e dois
+                banheiros exclusivos para a banda, garantindo praticidade e conforto
+                durante todo o evento.
+            </p>
+            <h4>Localização</h4>
+            <p>
+                O Spazio Bianchi está localizado em José Bonifácio, em um espaço
+                encantador que combina beleza, conforto e praticidade. Venha conhecer
+                de perto cada detalhe e descubra o cenário ideal para tornar sua
+                celebração ainda mais especial. Entre em contato com nossa equipe e
+                agende uma visita para conhecer o espaço e começar a imaginar o seu
+                grande dia.
+            </p>
+        </section>
+        <section class="ambiente">
+            <div class="texto_espaco">
+                <h2>Espaços que você pode gostar</h2>
+                <p class="descubra">Descubra outros espaços populares para seu evento</p>
+            </div>
+            <section class="anuncios">
+                <div class="anuncio">
+                    <img src="imgorcamento/imagemrecanto.webp" alt="Banda Saloon">
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Espaço Clube Recanto Natureza</h3>
+                        <span class="descricao2">Itatiba, São Paulo </span>
+                    </div>
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 2.250</p>
+                    </div>
+                    <div class="quantidade">
+                        <span id="pessoas" class="material-symbols-outlined">
+                            group
+                        </span>
+                        <p class="descricao4">50 a 250</p>
+                    </div>
+                </div>
+                </div>
+                <div class="anuncio">
+                    <img src="imgorcamento/imagemcasafazendeiro.webp" alt="Spazio Bianchi">
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Casa do fazendeiro - Espaço para Eventos</h3>
+                        <span class="descricao2">Araçoiaba da serra, São Paulo </span>
+                    </div>
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 5.000</p>
+                    </div>
+                    <div class="quantidade">
+                        <span id="pessoas" class="material-symbols-outlined">
+                            group
+                        </span>
+                        <p class="descricao4">20 a 250</p>
+                    </div>
+                </div>
+                </div>
+                <div class="anuncio">
+                    <img src="imgorcamento/imagemamalfi.webp" alt="True Love - Cabine Fotográfica">
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Espaço Amalfi</h3>
+                        <span class="descricao2">Cravinhos, São Paulo</span>
+                    </div>
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 1.300</p>
+                    </div>
+                    <div class="quantidade">
+                        <span id="pessoas" class="material-symbols-outlined">
+                            group
+                        </span>
+                        <p class="descricao4">40 a 593</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="maisinfo">
+            <h2 class="mais"> Mais Informações </h2>
+            <p class="oferece"> Quais espaços o local oferece?</p>
+
+            <div class="espaços">
+                <span class="material-symbols-outlined check">
+                    check
+                </span>
+                <p class="tamanho">Salôes de banquetes</p>
+                <div class="espaços">
+                    <span class="material-symbols-outlined check">
+                        check
+                    </span>
+                    <p class="tamanho">Cozinha para o uso do buffet</p>
+                    <div class="espaços">
+                        <span class="material-symbols-outlined check">
+                            check
+                        </span>
+                        <p class="tamanho">Estacionamento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="espaços">
+                <span class="material-symbols-outlined check">
+                    check
+                </span>
+                <p class="tamanho">Jardins</p>
+
+                <section class="pista">
+                    <span class="material-symbols-outlined check">
+                        check
+                    </span>
+                    <p class="tamanho">Pista de dança</p>
+                </section>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="local">
+            <p class="oferece"> Quais espaços o local oferece?</p>
+            <div class="espaços">
+                <span class="material-symbols-outlined check">
+                    check
+                </span>
+                <p class="tamanho2">Outros (O Spazio Bianchi oferece o melhor espaço para seu evento, deixando-o livre
+                    para
+                    contratar os demais serviços das empresas de sua preferência)</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="local">
+            <p class="oferece"> Quais espaços o local oferece?</p>
+            <div class="espaços">
+                <span class="material-symbols-outlined check">
+                    check
+                </span>
+                <p class="tamanho2">Cidade</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="local">
+            <p class="oferece"> Dispôe alojamento para os convidados?</p>
+            <div class="espaços">
+                <span class="material-symbols-outlined error">
+                    close
+                </span>
+                <p class="tamanho2">Não</p>
+            </div>
+
+            <section>
+                <button class="vermais">Ver mais </button>
+            </section>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <section class="footer-info">
+            <img class="logo-footer" src="logo.png" alt="" width="200px">
+            <p class="regular1">Siga nossas redes sociais:</p>
+            <div class="redes">
+                <a href="https://wa.me/5511999999999" target="_blank"><img src="footer/whatsapp.png" alt=""
+                        width="30px"></a>
+                <a href="https://www.instagram.com" target="_blank"><img
+                        src="footer/magnific__other-instagram-logo-icon-black-minimalist-line-ar__99647-removebg-preview.png"
+                        alt="" width="40px"></a>
+                <a href="https://www.facebook.com/nextevent/" target="_blank"><img src="footer/facebook.png" alt=""
+                        width="21px"></a>
+                <a href="https://www.linkedin.com/company/nextevent/" target="_blank"><img
+                        src="footer/—Pngtree—linkedin white icon vector_3570423.png" alt="" width="30px"></a>
+            </div>
+            <p class="bold">Planeje hoje. Memorize para sempre.</p>
+            <p class="regular2">© 2026 Next Event. Todos os direitos reservados.</p>
+            </div>
+        </section>
+
+        <section class="fim">
+            <a class="voltar" href=#topo> VOLTAR AO TOPO</a>
+        </section>
+    </footer>
+
+    <script>
+        const modal = document.getElementById("modal");
+        const abrirModal = document.getElementById("abrirModal");
+        const fecharModal = document.getElementById("fecharModal");
+        abrirModal.addEventListener("click", function () {
+            modal.style.display = "flex";
+        });
+        fecharModal.addEventListener("click", function () {
+            modal.style.display = "none";
+        });
+        modal.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+</html>

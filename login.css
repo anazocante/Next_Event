@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF7EE;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #26160E;
+}
+
+.logo img {
+    width: auto;
+    height: 48px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin-right: -400px;
+    list-style: none;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a {
+    color: #FDF7EE;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8E6D54;
+}
+
+.login-section {
+    display: flex;
+    color: #FDF7EE;
+    margin-right: 90px;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-section:hover {
+    color: #8E6D54;
+}
+
+
+.material-symbols-outlined {
+    position: relative;
+    left: 50px;
+    top: 11px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 260,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+#material-symbols-outlined {
+    left: 0;
+    top: 0;
+    font-variation-settings:
+        'FILL' 50,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+input::placeholder {
+    left: 5px;
+    position: relative;
+    color: #26160E;
+    font-family: poppins;
+}
+
+.entre {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login-section2 {
+    text-decoration: none;
+    color: #FDF7EE;
+}
+
+.login-container {
+    background-color: #26160E;
+    border-top-right-radius: 200px;
+    width: 430px;
+    height: 683px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+
+.login-title {
+    font-family: abril fatface;
+    font-weight: 150;
+    font-size: 40px;
+    color: #FDF7EE;
+    margin-left: 35px;
+}
+
+#login-subtitle {
+    font-family: poppins;
+    font-weight: 350;
+    font-size: 22px;
+    color: #FDF7EE;
+}
+
+#login-subtitle2 {
+    font-family: poppins;
+    font-weight: 350;
+    font-size: 22px;
+    color: #FDF7EE;
+    margin-top: -12px;
+}
+
+.acesso {
+    margin-left: 35px;
+    margin-top: -8px;
+}
+
+main {
+    display: flex;
+    gap: 300px;
+}
+
+.login-form-title {
+    font-family: abril fatface;
+    font-weight: 150;
+    font-size: 50px;
+    color: #26160E;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+
+.login-form-password {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+#email {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+
+}
+
+#senha {
+    background-color: #FDF7EE;
+    border: 1px solid #26160E;
+    border-radius: 40px;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px 0 50px;
+}
+
+.login-form-link {
+    text-decoration: none;
+    color: #26160E;
+    font-family: poppins;
+    font-size: 14px;
+    width: 400px;
+    margin-left: 255px;
+}
+
+.login-form-link2 {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.login-form-link:hover {
+    text-decoration: underline;
+    color: #26160E
+}
+
+.login-button {
+    background-color: #8E6D54;
+    border: none;
+    border-radius: 40px;
+    width: 350px;
+    height: 50px;
+    color: #FDF7EE;
+    font-family: poppins;
+    font-weight: 580;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 25px;
+    transition: 0.2s;
+}
+
+.login-button-link {
+    text-decoration: none;
+    color: #FDF7EE;
+}
+
+.login-button:hover {
+    background-color: #26160E;
+}
+
+.login-form-text {
+    font-family: poppins;
+    font-size: 14px;
+    width: 330px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.login-form-text2 {
+    text-decoration: none;
+    color: #8E6D54;
+}
+
+.login-form-text2:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="pt-br">
+
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D’Latte Doces Artesanais | Next Events</title>
+    <link rel="stylesheet" href="orcamento-bd.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_" />
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="logo" id="topo">
+            <a href="index.html"><img src="logo.png" alt="Logo"></a>
+        </div>
+
+
+
+
+        <nav>
+            <ul>
+                <li><a href="fornecedores.html">Fornecedores</a></li>
+                <li><a href="eventos.html">Site de Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+
+
+
+
+        <a href="login.html" class="login-section2">
+            <section class="login-section">
+                <span class="material-symbols-outlined" id="material-symbols-outlined">
+                    person
+                </span>
+                <p class="entre">Entre</p>
+            </section>
+        </a>
+    </header>
+
+
+
+
+    <main>
+        <section class="compras">
+            <div class="bannerbianchi">
+                <img class="imagembianchi" src="bolos e doces/unnamed.png" alt="Imagem D'Latte Doces" />
+                <p onclick="window.location.href='galeria-dlatte.html'" class="botaoimagem">Descubra mais</p>
+            </div>
+
+
+
+
+            <div class="orcamento-info">
+                <h2 class="titulo">D’Latte Doces Artesanais </h2>
+                <p class="localizacao">São Bernardo do Campo, São Paulo</p>
+
+
+
+
+                <div class="borda">
+                    <div class="info">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p>A partir de R$ 3</p>
+                    </div>
+                </div>
+
+
+
+
+                <button class="botaobannerbianchi" id="abrirModal" type="button">Pedir orçamento grátis</button>
+                <div class="avanco">
+                    <span id="seta" class="material-symbols-outlined">
+                        trending_up
+                    </span>
+                    <p class="pequeno">Dos mais pesquisados em São Paulo Estado</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <div class="fundo-modal" id="modal">
+            <div class="janela-modal">
+                <button class="fechar-modal" id="fecharModal" type="button">
+                    &times;
+                </button>
+                <p class="modal-subtitulo">D'Latte Doces Artesanais</p>
+                <h2>Peça mais informação</h2>
+                <p class="modal-descricao">
+                    Preencha este formulário e entraremos em contato
+                    em breve. Seus dados serão tratados de forma confidencial.
+                </p>
+                <form class="formulario-modal">
+                    <div class="campo-modal nome-modal">
+                        <input type="text" placeholder="Nome completo" required>
+                    </div>
+                    <div class="campo-modal">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="campo-modal">
+                        <input type="tel" placeholder="Telefone" required>
+                    </div>
+                    <label class="rotulo-modal">Data do evento</label>
+                    <div class="campo-modal">
+                        <select required>
+                            <option value="">Mês</option>
+                            <option>Janeiro</option>
+                            <option>Fevereiro</option>
+                            <option>Março</option>
+                            <option>Abril</option>
+                            <option>Maio</option>
+                            <option>Junho</option>
+                            <option>Julho</option>
+                            <option>Agosto</option>
+                            <option>Setembro</option>
+                            <option>Outubro</option>
+                            <option>Novembro</option>
+                            <option>Dezembro</option>
+                        </select>
+                    </div>
+                    <div class="campo-modal">
+                        <select required>
+                            <option value="">Ano</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                        </select>
+                    </div>
+                    <label class="rotulo-modal">Nº aproximado de convidados</label>
+                    <div class="opcoes-modal">
+                        <label>
+                            <input type="radio" name="convidados" value="0-100" required>
+                            <span>0-100</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="100-150">
+                            <span>100-150</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="150-200">
+                            <span>150-200</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="convidados" value="200+">
+                            <span>200+</span>
+                        </label>
+                    </div>
+                    <button class="enviar-modal" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <section class="informacoesbianchi">
+            <h2>Informações</h2>
+            <p>
+                EEm uma festa de casamento, cada escolha contribui para criar uma experiência especial para os noivos e
+                seus convidados. Entre a decoração, o buffet e os demais elementos da comemoração, os doces também fazem
+                parte dessa composição, trazendo charme e um toque de sabor ao evento.
+            </p>
+            <p>
+                A <strong>D’Latte Doces</strong> é especializada na produção de bem-casados artesanais, desenvolvidos
+                para acompanhar ocasiões marcantes. A empresa tem como prioridade oferecer produtos de qualidade,
+                utilizando ingredientes selecionados e mantendo o compromisso com a organização, os prazos e as
+                expectativas de cada cliente.
+            </p>
+
+
+
+
+            <p>
+                A preparação dos doces acontece de forma artesanal, com atenção desde a elaboração da massa até a
+                finalização de cada unidade. A receita é composta por um pão de ló de textura delicada, combinado com um
+                recheio de doce de leite preparado pela própria empresa, garantindo um resultado saboroso e
+                característico.
+            </p>
+
+
+
+
+            <p>
+                Outro cuidado importante está na apresentação dos produtos, que podem complementar a decoração da
+                recepção e deixar a mesa de doces ainda mais elegante. Cada bem-casado é pensado para oferecer aos
+                convidados não apenas um doce, mas também uma experiência que faça parte da celebração.
+            </p>
+            <p>
+                Com atendimento personalizado e dedicação em todas as etapas, a D’Latte busca compreender as
+                preferências dos noivos e contribuir para que tudo aconteça conforme o esperado. Seu trabalho é levar
+                sabor e delicadeza aos eventos, valorizando os detalhes que tornam cada comemoração diferente e
+                especial.
+            </p>
+        </section>
+
+
+
+
+        <section class="ambiente">
+            <div class="texto_espaco">
+                <h2>Fornecedores que você pode gostar</h2>
+                <p class="descubra">Descubra outros fornecedores populares para seu evento</p>
+            </div>
+            <section class="anuncios">
+                <div class="anuncio">
+                    <img src="bolos e doces/doce2.webp" alt="Vila Rudá">
+
+
+
+
+
+
+
+
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Mania de açúcar</h3>
+                        <span class="descricao2">São Lucas, São Paulo </span>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 3</p>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="anuncio">
+                    <img src="bolos e doces/doce3.webp" alt="Donini Fotografia">
+
+
+
+
+
+
+
+
+                    <div class="informaçoes">
+                        <h3 class="titulocard">Ateliê Cátia Primon</h3>
+                        <span class="descricao2">Casa Verde, São Paulo</span>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 1</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="anuncio">
+                    <img src="bolos e doces/doce4.webp" alt="Ale Quitutes e Eventos">
+
+
+
+
+
+
+
+
+                    <div class="informaçoes">
+                        <h3 class="titulocard">La Divine Douce</h3>
+                        <span class="descricao2">Ponte Rasa, São Paulo</span>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="preco">
+                        <span id="valor" class="material-symbols-outlined">
+                            paid
+                        </span>
+                        <p class="descricao3">A partir de R$ 2,45</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+
+
+        <section class="maisinfo">
+            <h2 class="mais"> Mais Informações </h2>
+            <p class="oferece"> Que tipo de produtos estão disponíveis?</p>
+
+
+
+
+            <div class="espaços">
+                <span id="check" class="material-symbols-outlined">
+                    check
+                </span>
+                <p class="tamanho">Bem casados</p>
+
+
+
+
+                <div class="espaços">
+                    <span id="check" class="material-symbols-outlined">
+                        check
+                    </span>
+                    <p class="tamanho">Doces especiais</p>
+
+
+
+
+                    <div class="espaços">
+                        <span id="check" class="material-symbols-outlined">
+                            check
+                        </span>
+                        <p class="tamanho">Doces Simples</p>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <hr>
+
+
+
+
+        <section class="local">
+            <p class="oferece"> Quais são os serviços oferecidos?</p>
+            <div class="espaços">
+                <p class="tamanho2">Montagem de mesas de sobremesas e doces</p>
+            </div>
+        </section>
+
+
+
+
+        <hr>
+
+
+
+
+        <section class="local">
+            <p class="oferece">Realiza trabalhos a medida?</p>
+            <div class="espaços">
+                <p class="tamanho2">Sim</p>
+            </div>
+        </section>
+
+
+
+
+        <hr>
+
+
+
+
+        <section class="local">
+            <p class="oferece"> Com que antecedência devo entrar em contato?</p>
+            <div class="espaços">
+                <span class="material-symbols-outlined check">
+                    check
+                </span>
+                <p class="tamanho2">10 dias</p>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <button class="vermais">Ver mais </button>
+        </section>
+    </main>
+
+
+
+
+    <footer class="rodape">
+        <section class="footer-info">
+            <img class="logo-footer" src="logo.png" alt="" width="200px">
+            <p class="regular1">Siga nossas redes sociais:</p>
+            <div class="redes">
+                <a href="https://wa.me/5511999999999" target="_blank"><img src="footer/whatsapp.png" alt=""
+                        width="30px"></a>
+                <a href="https://www.instagram.com" target="_blank"><img
+                        src="footer/magnific__other-instagram-logo-icon-black-minimalist-line-ar__99647-removebg-preview.png"
+                        alt="" width="40px"></a>
+                <a href="https://www.facebook.com/nextevent/" target="_blank"><img src="footer/facebook.png" alt=""
+                        width="21px"></a>
+                <a href="https://www.linkedin.com/company/nextevent/" target="_blank"><img
+                        src="footer/—Pngtree—linkedin white icon vector_3570423.png" alt="" width="30px"></a>
+            </div>
+            <p class="bold">Planeje hoje. Memorize para sempre.</p>
+            <p class="regular2">© 2026 Next Event. Todos os direitos reservados.</p>
+            </div>
+        </section>
+
+        <section class="fim">
+            <a class="voltar" href=#topo> VOLTAR AO TOPO</a>
+        </section>
+    </footer>
+
+
+
+
+    <script>
+        const modal = document.getElementById("modal");
+        const abrirModal = document.getElementById("abrirModal");
+        const fecharModal = document.getElementById("fecharModal");
+        abrirModal.addEventListener("click", function () {
+            modal.style.display = "flex";
+        });
+        fecharModal.addEventListener("click", function () {
+            modal.style.display = "none";
+        });
+        modal.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+
+
+
+</html>
